@@ -1,0 +1,136 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "64c66767-4367-4391-b4db-5d3ae338f23b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 27.686 26.162)
+		(size 22.606 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ffef3f0-c596-4316-9d55-314e15f9f8d2")
+		(property "Sheetname" "PowerManagement"
+			(at 27.686 25.4504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerManagement_sch.kicad_sch"
+			(at 27.686 55.9566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 50.292 31.242 0)
+			(uuid "38a921e4-fbb9-42c8-b8bc-ff4868d04541")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" input
+			(at 27.686 32.512 180)
+			(uuid "dcb236e1-5704-482e-a496-fca47d58d950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CE" input
+			(at 50.292 36.322 0)
+			(uuid "d4b9d375-1fbc-4ac1-9ae0-60b52114760d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHG" input
+			(at 50.292 38.862 0)
+			(uuid "80e339ab-d17b-4fa1-89c7-cd290954659e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" input
+			(at 50.292 43.942 0)
+			(uuid "9ca72416-8323-45e6-b29e-7dfb8a64a6c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" input
+			(at 50.292 46.482 0)
+			(uuid "bddc7290-2280-48b8-8b5e-c4842de8c4ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT" input
+			(at 50.292 28.702 0)
+			(uuid "468e7a2d-ffac-4de5-9064-94e828d444d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSYS" input
+			(at 27.686 37.592 180)
+			(uuid "7978a5a3-d8d7-4b6c-8d9e-3540d97dd959")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
