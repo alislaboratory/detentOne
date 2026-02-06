@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "64c66767-4367-4391-b4db-5d3ae338f23b")
 	(paper "A4")
+	(title_block
+		(title "detent One")
+	)
 	(lib_symbols
 		(symbol "easyeda2kicad:ESP32-S3-WROOM-1(N16R8)"
 			(exclude_from_sim no)
@@ -1419,7 +1422,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 92.71)
+		(at 26.67 95.25)
 		(size 21.59 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1435,7 +1438,7 @@
 		)
 		(uuid "54658cca-03e6-4b47-9962-1ac5363e1404")
 		(property "Sheetname" "Encoder"
-			(at 26.67 91.9984 0)
+			(at 26.67 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,12 +1447,82 @@
 			)
 		)
 		(property "Sheetfile" "Encoder.kicad_sch"
-			(at 26.67 116.1546 0)
+			(at 26.67 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3.3V IN" input
+			(at 26.67 101.6 180)
+			(uuid "0fd69139-1443-4984-9b7b-b3cac3fa651b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A_OUT" input
+			(at 48.26 105.41 0)
+			(uuid "1b622558-3878-4f23-b2d2-12f9bb6a4dbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B_OUT" input
+			(at 48.26 109.22 0)
+			(uuid "3521c1d7-c0cb-4fd8-b4bd-82f920a159e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHIP SELECT" input
+			(at 48.26 113.03 0)
+			(uuid "a04008f3-37bc-4ac9-9405-bb681670e9b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLOCK" input
+			(at 48.26 116.84 0)
+			(uuid "d232b0ac-28c9-472b-8983-5f3936b13710")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" input
+			(at 48.26 97.79 0)
+			(uuid "cdaea30d-eae6-4f19-b37c-cebb908c2dad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 48.26 101.6 0)
+			(uuid "1d2dbb46-d9b5-41fe-b074-36c6abff88bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1461,7 +1534,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 124.46)
+		(at 26.67 127)
 		(size 21.59 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1477,7 +1550,7 @@
 		)
 		(uuid "71cbbc4b-99b0-4dbc-91fe-1d866024ef70")
 		(property "Sheetname" "microSD"
-			(at 26.67 123.7484 0)
+			(at 26.67 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,12 +1559,62 @@
 			)
 		)
 		(property "Sheetfile" "microSD.kicad_sch"
-			(at 26.67 146.6346 0)
+			(at 26.67 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 26.67 133.35 180)
+			(uuid "c33814f1-ad82-4c2c-be58-2f327c696230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_CS" input
+			(at 48.26 138.43 0)
+			(uuid "c561e1ae-7b98-434d-8d64-dc75a6a39c23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_MISO" input
+			(at 48.26 130.81 0)
+			(uuid "2e183fc4-0d7f-4cbe-a025-0989bf27fd4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_MOSI" input
+			(at 48.26 134.62 0)
+			(uuid "05970d2a-69b5-48b3-bcda-0fe275c4431f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_SCK" input
+			(at 48.26 142.24 0)
+			(uuid "ebfc4a23-8112-45c6-aa4d-0d88ff2bfdd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1503,8 +1626,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 64.77)
-		(size 21.59 21.59)
+		(at 26.67 58.42)
+		(size 21.59 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1519,7 +1642,7 @@
 		)
 		(uuid "f7d2473e-319a-4a76-8dbf-73a91e1f555e")
 		(property "Sheetname" "TMC6300 BLDC Driver"
-			(at 26.67 64.0584 0)
+			(at 26.67 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,12 +1651,152 @@
 			)
 		)
 		(property "Sheetfile" "TMC6300_BLDC.kicad_sch"
-			(at 26.67 86.9446 0)
+			(at 26.67 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DIAG" input
+			(at 26.67 71.12 180)
+			(uuid "6096078a-64b7-47b9-bd35-fa53cfeee5a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE" input
+			(at 26.67 78.74 180)
+			(uuid "86ad2f42-13bd-497a-b622-756722587911")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STDBY" input
+			(at 26.67 73.66 180)
+			(uuid "680843ef-372a-4082-a6c9-bc24ce37bf1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "U" input
+			(at 48.26 60.96 0)
+			(uuid "cffc58fd-b34c-437d-82a7-906b6fc7342c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UH" input
+			(at 48.26 69.85 0)
+			(uuid "d652bca4-ce41-4564-ae3d-2893a27bceb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UL" input
+			(at 48.26 72.39 0)
+			(uuid "e5de0454-3567-4123-99aa-28d0201c9a92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V" input
+			(at 48.26 63.5 0)
+			(uuid "8ee996e0-d361-445b-8d03-03841614626b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT" input
+			(at 26.67 66.04 180)
+			(uuid "996f19a8-446c-4c22-abaf-649fe7995595")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCP" input
+			(at 26.67 76.2 180)
+			(uuid "acfafebd-86d8-42b7-8aef-9004e592d862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VH" input
+			(at 48.26 82.55 0)
+			(uuid "14569505-7257-42f6-aec8-84678199e6ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VL" input
+			(at 48.26 85.09 0)
+			(uuid "f329deb1-ce1a-424e-b2aa-1a960235e550")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "W" input
+			(at 48.26 66.04 0)
+			(uuid "b8d8b04c-0ead-48c4-8fa2-8609c73e95f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WH" input
+			(at 48.26 76.2 0)
+			(uuid "840120c4-5eb2-43f4-a8b3-f582a9d80b3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WL" input
+			(at 48.26 78.74 0)
+			(uuid "75f15c6f-530c-4e57-ab6a-fa10fad8c346")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
