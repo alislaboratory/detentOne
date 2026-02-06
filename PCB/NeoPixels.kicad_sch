@@ -284,8 +284,8 @@
 		(uuid "003a1f92-ce26-4e81-987f-e65468ae13e2")
 	)
 	(no_connect
-		(at 36.83 88.9)
-		(uuid "7c3c8e3e-512b-4b10-a3f7-3d9c44740eaf")
+		(at 36.83 180.34)
+		(uuid "845baad0-e07d-4ac2-b000-7187d0dc9222")
 	)
 	(wire
 		(pts
@@ -296,6 +296,16 @@
 			(type default)
 		)
 		(uuid "03947801-cb3b-463c-97fe-0023f92094f7")
+	)
+	(wire
+		(pts
+			(xy 36.83 123.19) (xy 62.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072aeeee-2372-426f-a042-56c6267d1bd4")
 	)
 	(wire
 		(pts
@@ -359,6 +369,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 143.51) (xy 62.23 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fb2437-616c-42b4-bd6f-86cca3dda2a1")
+	)
+	(wire
+		(pts
 			(xy 62.23 31.75) (xy 62.23 35.56)
 		)
 		(stroke
@@ -366,6 +386,66 @@
 			(type default)
 		)
 		(uuid "22f06200-c4e8-4698-bd61-3faf28f928fd")
+	)
+	(wire
+		(pts
+			(xy 36.83 92.71) (xy 62.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c87624-f76d-46c8-8565-1df82f38ffba")
+	)
+	(wire
+		(pts
+			(xy 36.83 99.06) (xy 36.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3032e941-bcb7-49e4-ada0-0d1bd3882560")
+	)
+	(wire
+		(pts
+			(xy 36.83 173.99) (xy 62.23 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8cc9d2-4433-41f5-8295-d200908b013a")
+	)
+	(wire
+		(pts
+			(xy 62.23 119.38) (xy 64.77 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d409f63-8ffd-46b7-af33-c636ad96bf60")
+	)
+	(wire
+		(pts
+			(xy 62.23 109.22) (xy 64.77 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42883c8f-5b52-4fa2-8e97-1bda3d48fa6d")
+	)
+	(wire
+		(pts
+			(xy 36.83 139.7) (xy 36.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d4fe5e-9a63-482f-bb12-ca393b89afba")
 	)
 	(wire
 		(pts
@@ -379,6 +459,36 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 102.87) (xy 62.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534156de-e16a-4f9f-8a76-84106edd1fc3")
+	)
+	(wire
+		(pts
+			(xy 27.94 106.68) (xy 36.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56dfb78e-34c3-4556-9ea1-8df2f88961a5")
+	)
+	(wire
+		(pts
+			(xy 36.83 133.35) (xy 62.23 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2f73b9-6c00-4c75-bfe9-f0d0640af13d")
+	)
+	(wire
+		(pts
 			(xy 62.23 25.4) (xy 64.77 25.4)
 		)
 		(stroke
@@ -389,6 +499,26 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 88.9) (xy 36.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fa2844-ad7c-4383-a882-4d2ac838595a")
+	)
+	(wire
+		(pts
+			(xy 62.23 173.99) (xy 62.23 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660e5b33-2024-4de3-8a0f-d78933058361")
+	)
+	(wire
+		(pts
 			(xy 27.94 55.88) (xy 36.83 55.88)
 		)
 		(stroke
@@ -396,6 +526,36 @@
 			(type default)
 		)
 		(uuid "6c62355f-42ad-4829-9ff4-d382a878776d")
+	)
+	(wire
+		(pts
+			(xy 62.23 180.34) (xy 64.77 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc154eb-29d8-444e-a7a5-a73c8bc0c639")
+	)
+	(wire
+		(pts
+			(xy 27.94 147.32) (xy 36.83 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc94d8c-8879-4f5a-963f-b038b9c4cec2")
+	)
+	(wire
+		(pts
+			(xy 36.83 102.87) (xy 62.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d442b54-cea1-48f7-8dd5-1c7a9f9523ab")
 	)
 	(wire
 		(pts
@@ -419,6 +579,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 163.83) (xy 62.23 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7687e200-c754-420a-aaec-2c898da1b9ac")
+	)
+	(wire
+		(pts
 			(xy 36.83 38.1) (xy 36.83 41.91)
 		)
 		(stroke
@@ -439,6 +609,26 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 116.84) (xy 36.83 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8189a848-6d25-4526-a0d4-d435d1ef1da9")
+	)
+	(wire
+		(pts
+			(xy 62.23 149.86) (xy 64.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86983c72-0217-4760-9f56-650fdf2ca263")
+	)
+	(wire
+		(pts
 			(xy 29.21 86.36) (xy 36.83 86.36)
 		)
 		(stroke
@@ -446,6 +636,56 @@
 			(type default)
 		)
 		(uuid "87a3190a-56ac-422f-bc47-48125d7d51e3")
+	)
+	(wire
+		(pts
+			(xy 36.83 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a02f44-f478-4d31-9b77-4deac49472a7")
+	)
+	(wire
+		(pts
+			(xy 62.23 123.19) (xy 62.23 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9101e52a-6d63-469b-a187-c55d5c7f0a24")
+	)
+	(wire
+		(pts
+			(xy 36.83 160.02) (xy 36.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f0a2dd-4e28-457d-9397-1b5603117d50")
+	)
+	(wire
+		(pts
+			(xy 62.23 139.7) (xy 64.77 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94432c5f-7e48-4251-834b-d76d23c390de")
+	)
+	(wire
+		(pts
+			(xy 62.23 133.35) (xy 62.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e54c32-ccfa-434e-83a8-642ee46dc8f4")
 	)
 	(wire
 		(pts
@@ -459,6 +699,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 137.16) (xy 36.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dced4d4-1f27-4576-8948-97d0a487cbca")
+	)
+	(wire
+		(pts
 			(xy 27.94 76.2) (xy 36.83 76.2)
 		)
 		(stroke
@@ -469,6 +719,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 153.67) (xy 62.23 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a073821c-fecb-43d9-911d-9c37384d2caf")
+	)
+	(wire
+		(pts
 			(xy 29.21 66.04) (xy 36.83 66.04)
 		)
 		(stroke
@@ -476,6 +736,26 @@
 			(type default)
 		)
 		(uuid "a1d8f662-59a5-4fc0-ab35-655187065edf")
+	)
+	(wire
+		(pts
+			(xy 36.83 129.54) (xy 36.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24dbc2c-ca49-40bb-8fc3-5daed47b9eca")
+	)
+	(wire
+		(pts
+			(xy 62.23 99.06) (xy 64.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dc7010-cf7b-45f6-9fdc-87acba051b13")
 	)
 	(wire
 		(pts
@@ -496,6 +776,26 @@
 			(type default)
 		)
 		(uuid "a58a3d0d-ec7f-4cb1-a554-e686fdda56fd")
+	)
+	(wire
+		(pts
+			(xy 36.83 170.18) (xy 36.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65dc77e-b5f4-4fc5-afd0-c5691c8d3b64")
+	)
+	(wire
+		(pts
+			(xy 27.94 127) (xy 36.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba8026e-62c8-42cf-9765-5979c2175ba6")
 	)
 	(wire
 		(pts
@@ -529,6 +829,56 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 109.22) (xy 36.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05b4e54-fdac-442c-9e1b-02be274ae1ce")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 62.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b151305b-479b-4044-8425-75f68b81d900")
+	)
+	(wire
+		(pts
+			(xy 29.21 96.52) (xy 36.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b186e668-f43b-4fc6-aee8-9ad1a051382d")
+	)
+	(wire
+		(pts
+			(xy 29.21 157.48) (xy 36.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24e0ae5-79c7-4368-bf89-1d015bc6c29e")
+	)
+	(wire
+		(pts
+			(xy 36.83 149.86) (xy 36.83 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9f4537-ad51-4538-bd9c-bbb06e580739")
+	)
+	(wire
+		(pts
 			(xy 27.94 35.56) (xy 36.83 35.56)
 		)
 		(stroke
@@ -536,6 +886,26 @@
 			(type default)
 		)
 		(uuid "c8bbf4d3-11bc-40e4-847c-124ea4c2e86a")
+	)
+	(wire
+		(pts
+			(xy 62.23 160.02) (xy 64.77 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda5d351-e3ca-4b69-862c-1e244e5fbbda")
+	)
+	(wire
+		(pts
+			(xy 29.21 167.64) (xy 36.83 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0702f1a-17a4-41cb-834e-0f3ff640a71c")
 	)
 	(wire
 		(pts
@@ -559,6 +929,36 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 119.38) (xy 36.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c811b1-10ec-4ece-ad65-098e28b30b26")
+	)
+	(wire
+		(pts
+			(xy 36.83 163.83) (xy 62.23 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da10a379-ea37-416b-91ec-78ec033eb66d")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 62.23 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4bf7a3-7dc7-4963-a496-ae89371247c0")
+	)
+	(wire
+		(pts
 			(xy 36.83 31.75) (xy 62.23 31.75)
 		)
 		(stroke
@@ -576,6 +976,26 @@
 			(type default)
 		)
 		(uuid "dda31373-f396-455f-9ab1-16daaaafae40")
+	)
+	(wire
+		(pts
+			(xy 36.83 143.51) (xy 62.23 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de99d1d4-0120-456b-b388-420fb3ab0953")
+	)
+	(wire
+		(pts
+			(xy 62.23 170.18) (xy 64.77 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e509729e-074b-41c5-95ab-2a9ea1014ce0")
 	)
 	(wire
 		(pts
@@ -609,6 +1029,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 153.67) (xy 62.23 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49e394f-2a71-4ba3-a6ca-2f3e403075b6")
+	)
+	(wire
+		(pts
 			(xy 36.83 82.55) (xy 62.23 82.55)
 		)
 		(stroke
@@ -616,6 +1046,37 @@
 			(type default)
 		)
 		(uuid "f879d3e9-ca77-4eab-a438-16a474622ede")
+	)
+	(wire
+		(pts
+			(xy 62.23 129.54) (xy 64.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e9e28d-25c3-4a18-b07b-00b95f0cd4f9")
+	)
+	(wire
+		(pts
+			(xy 29.21 177.8) (xy 36.83 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd336a77-0409-48c4-8f4c-2a0544c124d9")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 29.21 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "078af69c-96c8-4c25-957a-2be7a7bd3833")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -641,6 +1102,17 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
+		(at 29.21 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a2a5d87-fe68-4d7c-8763-47c5554449c9")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
 		(at 27.94 35.56 180)
 		(effects
 			(font
@@ -649,6 +1121,17 @@
 			(justify right)
 		)
 		(uuid "52f3dd40-2797-47a6-a15b-0b3b4598706d")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 29.21 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5cf50900-8f78-4af1-a878-5624d24b61ea")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -663,6 +1146,28 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
+		(at 29.21 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72b4bdf5-b7e2-4f0b-8faf-8bb783bdc25c")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 27.94 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e901256-8be4-4f52-99ea-c0ee0e19e170")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
 		(at 27.94 76.2 180)
 		(effects
 			(font
@@ -671,6 +1176,17 @@
 			(justify right)
 		)
 		(uuid "81020c0f-d176-4da5-a923-64bafa797fc9")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 27.94 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90d43792-bcf1-4086-8f5f-a95951367103")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -696,6 +1212,17 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
+		(at 29.21 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a457e9ea-ccfb-4346-9464-78b5be9c366f")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
 		(at 29.21 45.72 180)
 		(effects
 			(font
@@ -704,6 +1231,175 @@
 			(justify right)
 		)
 		(uuid "f0f328c8-d409-4fad-8154-9204a1433711")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 27.94 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f592f468-602b-4d72-b8fe-b16de4fd8937")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 29.21 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fed8f307-2937-4e27-91e8-141e78fdfc2d")
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2812B-B_W")
+		(at 49.53 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00e550b8-fdc9-4506-a423-23bd3c176b7d")
+		(property "Reference" "LED10"
+			(at 49.276 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-B/W"
+			(at 49.784 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B"
+			(at 49.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761795"
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e17e11d4-038a-486a-a3e2-fd4bca11886f")
+		)
+		(pin "2"
+			(uuid "4771523d-7714-42e3-af96-22fc7742b4b8")
+		)
+		(pin "3"
+			(uuid "7b34d5f8-b47c-492d-adea-a1b4fca13fea")
+		)
+		(pin "4"
+			(uuid "cd1ab204-0667-4f0c-a9f6-60e3b8e1df4a")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07bd3eff-a0ea-459b-828f-aea56460c600")
+		(property "Reference" "#PWR047"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6f77d21-af08-4db7-9ab7-1fe2d4cb83a8")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -765,6 +1461,88 @@
 			(project "detentOne"
 				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2812B-B_W")
+		(at 49.53 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15e264bc-750e-424c-98ab-452a0145f369")
+		(property "Reference" "LED15"
+			(at 49.784 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-B/W"
+			(at 49.276 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761795"
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46faa888-e537-4564-9c81-fa8777e9a835")
+		)
+		(pin "2"
+			(uuid "ccbf6419-03f9-4f84-9645-f1014c6d5e09")
+		)
+		(pin "3"
+			(uuid "f5ee5c69-60a5-4539-b132-b16e76b964c0")
+		)
+		(pin "4"
+			(uuid "e4a8ed37-effd-43f6-b1e0-2768bf26523c")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -918,6 +1696,88 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:WS2812B-B_W")
+		(at 49.53 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3537ec68-8f34-401b-8cc0-6459b10c79c3")
+		(property "Reference" "LED12"
+			(at 49.276 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-B/W"
+			(at 49.784 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B"
+			(at 49.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761795"
+			(at 49.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b238f1-25aa-4408-b765-e16d20d04e8b")
+		)
+		(pin "2"
+			(uuid "66ccbeaf-e711-48e9-94e4-1cacbdff6ae8")
+		)
+		(pin "3"
+			(uuid "8c956f2f-5e6f-47b2-a033-3352ed63d278")
+		)
+		(pin "4"
+			(uuid "6099e9e5-1e41-4690-b1e3-79585506522d")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 48.26 0)
 		(unit 1)
@@ -977,6 +1837,71 @@
 			(project "detentOne"
 				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "537c6c85-b718-466b-b43e-d71c4a936e73")
+		(property "Reference" "#PWR054"
+			(at 64.77 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b987af6a-10e2-4d90-bdc7-e7c81a41a792")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1147,6 +2072,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61c75d80-8acb-4159-8597-1e7a14f6c864")
+		(property "Reference" "#PWR049"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54d2677c-e11c-4eb7-ab8b-68c7b9ec46ea")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:WS2812B-B_W")
 		(at 49.53 88.9 0)
 		(unit 1)
@@ -1230,6 +2220,235 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 64.77 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a822296-055d-43df-aea5-b54adb0fb7a2")
+		(property "Reference" "#PWR052"
+			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf832da9-957c-4612-9b29-7ee53df1d978")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2812B-B_W")
+		(at 49.53 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b230bf3-adf5-440f-8a55-0848d005dbcd")
+		(property "Reference" "LED17"
+			(at 49.784 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-B/W"
+			(at 49.276 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B"
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761795"
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d45846ce-32d8-4374-94dc-e53dc306257e")
+		)
+		(pin "2"
+			(uuid "09d7b7af-94ed-410e-84e3-5b6d2d111543")
+		)
+		(pin "3"
+			(uuid "1425a592-4853-4940-aec5-0a626d863d9b")
+		)
+		(pin "4"
+			(uuid "0eefe8a6-f5c0-4c01-a84e-45f4a3acc61f")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2812B-B_W")
+		(at 49.53 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74729333-0dfa-4631-84d4-1de8e9b14c98")
+		(property "Reference" "LED9"
+			(at 49.784 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-B/W"
+			(at 49.276 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B"
+			(at 49.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761795"
+			(at 49.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0063bb8f-def5-4880-982c-02c623d80787")
+		)
+		(pin "2"
+			(uuid "71854c35-4c3b-473b-8f33-b7875b6aa164")
+		)
+		(pin "3"
+			(uuid "b615671f-78f2-4e1a-887a-e9edba621a64")
+		)
+		(pin "4"
+			(uuid "7b9d9de3-5d68-4be7-b2a5-11c537445ae7")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 64.77 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1288,6 +2507,283 @@
 			(project "detentOne"
 				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85979b43-f42f-4778-8ee0-ba398c1d136c")
+		(property "Reference" "#PWR053"
+			(at 64.77 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd7e2bbe-da2b-487a-a23e-61ca66020301")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87f13ef1-fe44-40fa-af14-847c81bab2ee")
+		(property "Reference" "#PWR051"
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16cfe211-fe04-4264-8863-6d35e5439f15")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2812B-B_W")
+		(at 49.53 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89e28562-d352-456e-8b8c-01c3f0845643")
+		(property "Reference" "LED13"
+			(at 49.784 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-B/W"
+			(at 49.276 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B"
+			(at 49.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761795"
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b64223f-cba1-4439-b1f2-bf391cbd820c")
+		)
+		(pin "2"
+			(uuid "eb2820dd-8583-43d0-8b6f-7e8a44e702a4")
+		)
+		(pin "3"
+			(uuid "6b4ea587-f42e-4668-ab55-316feb884124")
+		)
+		(pin "4"
+			(uuid "e6a29a50-9c0f-487b-ab28-df52b8b6730f")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b1464ae-63dc-4d95-b296-e0161a38d1f2")
+		(property "Reference" "#PWR050"
+			(at 64.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ada597a-bd91-4879-b59a-2cf599edf8e2")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1524,6 +3020,153 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 64.77 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af774ee7-f164-4dc8-b07b-37de43069081")
+		(property "Reference" "#PWR055"
+			(at 64.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d589ca7-4d77-471d-95b7-e402d4b50ff6")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2812B-B_W")
+		(at 49.53 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b37b65c6-4272-4a9c-8faf-cc9d2117e861")
+		(property "Reference" "LED16"
+			(at 49.784 168.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-B/W"
+			(at 49.276 171.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B"
+			(at 49.53 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761795"
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9be37a5d-85f1-499b-a2de-4a7f73989c0c")
+		)
+		(pin "2"
+			(uuid "8c2d5763-1c32-4cc5-a5c8-5767e4aa8d8c")
+		)
+		(pin "3"
+			(uuid "d049d9c8-9411-42f7-926b-25c475628723")
+		)
+		(pin "4"
+			(uuid "8021bf58-9f53-4736-b0a6-54aec84bcb5e")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 64.77 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1582,6 +3225,88 @@
 			(project ""
 				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2812B-B_W")
+		(at 49.53 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c883b248-7a8c-4129-a50d-9c176c645691")
+		(property "Reference" "LED14"
+			(at 49.276 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-B/W"
+			(at 49.784 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B"
+			(at 49.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761795"
+			(at 49.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22820197-7242-4a90-a195-5e7eec7db0b9")
+		)
+		(pin "2"
+			(uuid "62b46c5f-141c-4979-a280-2d5200162889")
+		)
+		(pin "3"
+			(uuid "c8b0f15c-92f7-46f3-a0f6-f7e034d38fd8")
+		)
+		(pin "4"
+			(uuid "be56b1b3-38a6-431f-846f-4ee486f2dfe1")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -1729,6 +3454,153 @@
 			(project "detentOne"
 				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
 					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WS2812B-B_W")
+		(at 49.53 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e40642de-4ccd-47bc-bb8e-37b6a8bb69cb")
+		(property "Reference" "LED11"
+			(at 49.784 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-B/W"
+			(at 49.276 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B"
+			(at 49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2761795"
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "520fc118-3a69-420f-b297-e3a60f6e05f8")
+		)
+		(pin "2"
+			(uuid "213fb935-7ceb-4cf8-8798-b57f787e36b2")
+		)
+		(pin "3"
+			(uuid "6507deb2-8813-491c-877a-e7fd235d4686")
+		)
+		(pin "4"
+			(uuid "9e99333d-8f75-4c0d-af74-b6350ffd2c8f")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f18d0e7e-3687-4f3f-8f3f-167a65165211")
+		(property "Reference" "#PWR048"
+			(at 64.77 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3752da10-43fe-47b0-a39e-db4cb4f0f3f7")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/48078717-367f-46bb-a555-d952a94b9703"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
