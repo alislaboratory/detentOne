@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a3fd81d0-40c4-48dd-8088-8ef420729dd1")
+	(uuid "4780d42f-8a92-4f33-950e-2287b10b2e16")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -715,12 +715,6 @@
 		(uuid "53e275d8-8bc2-48a3-948a-2939302784ae")
 	)
 	(junction
-		(at 107.95 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "619cf82f-5bf2-4fe2-bfe7-d6f92391ddb0")
-	)
-	(junction
 		(at 114.3 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -756,11 +750,9 @@
 		(color 0 0 0 0)
 		(uuid "f9a0cd91-d8c7-4b93-9bea-1e85ee72af17")
 	)
-	(junction
-		(at 107.95 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd497064-0d11-4702-9738-8b532da4a236")
+	(no_connect
+		(at 115.57 97.79)
+		(uuid "2def993c-1295-48d7-8999-db2e4888d60d")
 	)
 	(no_connect
 		(at 115.57 77.47)
@@ -829,36 +821,6 @@
 			(type default)
 		)
 		(uuid "38b03db2-313f-4463-aee3-45f21dd14319")
-	)
-	(wire
-		(pts
-			(xy 105.41 107.95) (xy 107.95 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4152eea9-787b-444d-b75a-47e7561d7dcc")
-	)
-	(wire
-		(pts
-			(xy 107.95 97.79) (xy 107.95 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479e25f8-97e0-4a3d-bebb-5c7e66092952")
-	)
-	(wire
-		(pts
-			(xy 107.95 97.79) (xy 115.57 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c25f649-72bb-4256-b36c-6bf090ac0eb4")
 	)
 	(wire
 		(pts
@@ -962,7 +924,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 107.95) (xy 107.95 107.95)
+			(xy 105.41 107.95) (xy 113.03 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1052,16 +1014,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 107.95 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca586116-c1f8-41e7-bed9-45dba81a0599")
-	)
-	(wire
-		(pts
 			(xy 83.82 72.39) (xy 91.44 72.39)
 		)
 		(stroke
@@ -1099,16 +1051,6 @@
 			(type default)
 		)
 		(uuid "e070ecec-8a74-4852-ad8f-ced01e1cb3f2")
-	)
-	(wire
-		(pts
-			(xy 107.95 106.68) (xy 107.95 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3fe0635-75ba-4f45-84b9-7f31533be139")
 	)
 	(wire
 		(pts
@@ -1183,17 +1125,6 @@
 			(justify right)
 		)
 		(uuid "2733c5af-4885-4108-bcc3-e90e018d4898")
-	)
-	(hierarchical_label "SD_DETECT"
-		(shape input)
-		(at 99.06 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "521ac990-fb59-4fdc-aac6-711450110331")
 	)
 	(hierarchical_label "SD_CS"
 		(shape input)
@@ -1425,73 +1356,6 @@
 			(project "detentOne"
 				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/71cbbc4b-99b0-4dbc-91fe-1d866024ef70"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e4524f2-0b3d-4cab-ab20-4e53e0eb8191")
-		(property "Reference" "R11"
-			(at 104.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 107.95 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 109.728 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bbeaa02-9dfc-4890-a3e9-aca97eb0733c")
-		)
-		(pin "2"
-			(uuid "39ef7626-69cf-4936-b611-c0ca9c6f408c")
-		)
-		(instances
-			(project "detentOne"
-				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/71cbbc4b-99b0-4dbc-91fe-1d866024ef70"
-					(reference "R11")
 					(unit 1)
 				)
 			)

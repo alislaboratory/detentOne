@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "0e41b876-8d15-422a-8c5c-3b32c9de57ae")
+	(uuid "42d1163f-c9b2-481a-9f22-ed87261b95b6")
 	(paper "A4")
 	(lib_symbols
 		(symbol "easyeda2kicad:AS5047P-ATSM_C962063"
