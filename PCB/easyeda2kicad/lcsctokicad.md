@@ -8,5 +8,5 @@ easyeda2kicad --full --lcsc\_id=C22387510 --output easyeda2kicad/easyeda2kicad -
 
 WINDOWS
 
-py -m easyeda2kicad --full --lcsc\_id=C5152883 --output easyeda2kicad\\easyeda2kicad --overwrite
+py -m easyeda2kicad --full --lcsc\_id=C393941 --output easyeda2kicad\\easyeda2kicad --overwrite
 
