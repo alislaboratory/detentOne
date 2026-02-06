@@ -5,5 +5,5 @@ Purchase Checklist
 - BLDC Gimbal Motor 2804 (DONE)
 - Waveshare 2.42" SSD1309 OLED Display (DONE)
 - 1200mAh 1S LiPo 
-- 6x Low profile keyboard switches
-- 
+- 6x Low profile keyboard switches (Kailh Choc Red V1)
+- GH1.25 7 pin connector cable 
