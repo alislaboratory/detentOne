@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9b1d26c2-95e6-46c4-9491-6657c511bdcf")
+	(uuid "421f5752-cd4e-41d2-82bc-33ba27cb77c6")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -2621,7 +2621,7 @@
 				)
 			)
 		)
-		(property "Value" "0.12"
+		(property "Value" "0.05"
 			(at 173.99 87.63 0)
 			(effects
 				(font
@@ -2629,7 +2629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 168.402 86.36 90)
 			(effects
 				(font
