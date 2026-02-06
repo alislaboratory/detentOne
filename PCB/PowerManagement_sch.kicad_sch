@@ -4197,7 +4197,7 @@
 		(dnp no)
 		(uuid "20885148-8d1f-4d98-83d3-122fcf1b6c73")
 		(property "Reference" "C5"
-			(at 243.078 66.802 90)
+			(at 243.078 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,8 +4205,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 235.204 67.056 90)
+		(property "Value" "10uF 6.3V"
+			(at 236.22 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5573,7 @@
 		(dnp no)
 		(uuid "7d36c3a1-bd46-4a91-81de-2fc37d6ff24c")
 		(property "Reference" "C6"
-			(at 258.064 101.6 90)
+			(at 252.73 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,8 +5581,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 250.19 101.092 90)
+		(property "Value" "100nF 10V"
+			(at 250.952 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5715,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 6.3V"
+		(property "Value" "1uF 10V"
 			(at 112.268 153.924 0)
 			(effects
 				(font
@@ -5910,7 +5910,7 @@
 		(dnp no)
 		(uuid "956057b0-30b6-4467-835b-498ddbea02dd")
 		(property "Reference" "C4"
-			(at 258.064 96.52 90)
+			(at 252.222 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,8 +5918,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 250.19 96.012 90)
+		(property "Value" "10uF 10V"
+			(at 258.064 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF 6.3V"
+		(property "Value" "4.7uF 10V"
 			(at 107.95 101.854 0)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF 10V"
 			(at 148.336 108.204 0)
 			(effects
 				(font

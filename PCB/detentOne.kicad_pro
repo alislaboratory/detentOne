@@ -637,6 +637,10 @@
     [
       "1dbddebc-1e20-4242-b4fa-7dd3ffbac8c0",
       "Switches"
+    ],
+    [
+      "48078717-367f-46bb-a555-d952a94b9703",
+      "NeoPixels"
     ]
   ],
   "text_variables": {}
