@@ -2545,6 +2545,10 @@
 		(uuid "27db0a85-32b2-48ab-a4db-9dd89a58ec07")
 	)
 	(no_connect
+		(at 242.57 104.14)
+		(uuid "3f206e62-f768-45bb-9e79-8660cfe4306a")
+	)
+	(no_connect
 		(at 46.99 55.88)
 		(uuid "53b2b1c0-c5d4-4ad6-a4f5-5b2744a7b2a5")
 	)
@@ -2565,12 +2569,20 @@
 		(uuid "791d62e6-ba00-4a8e-a1db-f0f8b089cc41")
 	)
 	(no_connect
+		(at 217.17 91.44)
+		(uuid "883460f9-db3c-40cc-b062-342bd8c73b73")
+	)
+	(no_connect
 		(at 46.99 40.64)
 		(uuid "aa06469d-1cca-4dae-8830-07fccc7cdcbd")
 	)
 	(no_connect
 		(at 132.08 135.89)
 		(uuid "b432b4e6-90db-40c0-a44c-4b8d3ed6ecaf")
+	)
+	(no_connect
+		(at 217.17 88.9)
+		(uuid "f706916b-6ea3-4be2-80b8-97c995b23db3")
 	)
 	(wire
 		(pts
@@ -6307,7 +6319,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "10K"
 			(at 208.28 115.57 90)
 			(effects
 				(font
