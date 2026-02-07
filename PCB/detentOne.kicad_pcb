@@ -19853,8 +19853,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Remove Lipo Functionality"
-		(at 152.5 40.5 0)
+	(gr_text "Remove Lipo Functionality!"
+		(at 130 49.5 0)
 		(layer "User.1")
 		(uuid "053cc591-7c28-4cbe-8bd4-7575e5c2492d")
 		(effects
