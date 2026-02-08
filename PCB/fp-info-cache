@@ -1,4 +1,4 @@
-27350021652753783
+27351792204447597
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108186,6 +108186,13 @@ VQFN-40_L7.0-W5.0-P0.50-TL-EP5.7
 41
 easyeda2kicad
 WIRELM-SMD_ESP32-S3-WROOM-1
+
+
+0
+49
+41
+easyeda2kicad
+WIRELM-SMD_ESP32-S3-WROOM-1U
 
 
 0
