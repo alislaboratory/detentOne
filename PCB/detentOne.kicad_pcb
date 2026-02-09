@@ -24057,18 +24057,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Add silkscreen text"
-		(at 142.7 43.3 0)
-		(layer "User.1")
-		(uuid "d831db6f-4d97-4636-ba0b-b96c53abbf2b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Add outlines around modules like that cool PCB on X"
 		(at 142.5 45 0)
 		(layer "User.1")
