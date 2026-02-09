@@ -2,7 +2,7 @@
 A Customisable BLE Macropad with a Haptic Knob and OLED.
 
 ![alt text](image.png)
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 Purchase Checklist
 - BLDC Gimbal Motor 2804 (DONE)
