@@ -1001,6 +1001,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Next iteration needs a new BLDC driver;\nTMC6300 is out of stock on LCSC."
+		(exclude_from_sim no)
+		(at 133.096 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d64a773a-b786-4a9a-90f7-b72856c13498")
+	)
 	(junction
 		(at 104.14 97.79)
 		(diameter 0)
