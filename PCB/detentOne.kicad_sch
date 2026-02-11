@@ -1785,16 +1785,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 110.49) (xy 210.82 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f5d5c8-ad28-417b-8341-374e13be42bb")
-	)
-	(wire
-		(pts
 			(xy 236.22 148.59) (xy 236.22 146.05)
 		)
 		(stroke
@@ -1882,6 +1872,16 @@
 			(type default)
 		)
 		(uuid "0ea19e3c-1ae4-4b25-9461-9ff386dd516d")
+	)
+	(wire
+		(pts
+			(xy 210.82 110.49) (xy 210.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c9ffdd-8cb3-439e-bec3-4e3d842773e3")
 	)
 	(wire
 		(pts
@@ -2235,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 185.42 97.79)
+			(xy 170.18 97.79) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2645,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 95.25) (xy 185.42 95.25)
+			(xy 210.82 125.73) (xy 210.82 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c989aa2c-f86f-4a4f-86e8-b2273c03e563")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 185.42 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2981,7 +2991,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 180.34 95.25 180)
+		(at 170.18 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2991,7 +3001,7 @@
 		)
 		(uuid "0a3fe13e-463d-434a-8b7c-91d5fcb3eeaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.7348 95.25 0)
+			(at 159.5748 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3255,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 180.34 97.79 180)
+		(at 170.18 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3255,7 +3265,7 @@
 		)
 		(uuid "2fec90b8-39b2-4481-bc83-72fed5eb1915")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.7348 97.79 0)
+			(at 159.5748 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3497,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 210.82 113.03 270)
+		(at 210.82 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3497,7 +3507,7 @@
 		)
 		(uuid "51f8cb52-7624-4955-a51f-6714c3171b95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 119.7647 90)
+			(at 210.82 133.7347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,6 +5060,91 @@
 			(project "detentOne"
 				(path "/64c66767-4367-4391-b4db-5d3ae338f23b"
 					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ba515a1-5e5e-4225-9188-70bebb2547c5")
+		(property "Reference" "R2"
+			(at 211.836 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22"
+			(at 210.82 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 212.598 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 210.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 210.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5507290d-e717-4978-9fbd-21724a6c11ef")
+		)
+		(pin "1"
+			(uuid "d9240eac-9793-4be5-b827-292c7bcfd7b9")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b"
+					(reference "R2")
 					(unit 1)
 				)
 			)

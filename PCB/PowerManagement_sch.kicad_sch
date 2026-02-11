@@ -2124,14 +2124,6 @@
 		(uuid "0532ccb2-b688-4efa-85ac-95bf9c012108")
 	)
 	(no_connect
-		(at 25.4 33.02)
-		(uuid "06905784-bc8f-4dcd-9332-f206a9990ed7")
-	)
-	(no_connect
-		(at 25.4 60.96)
-		(uuid "27db0a85-32b2-48ab-a4db-9dd89a58ec07")
-	)
-	(no_connect
 		(at 242.57 104.14)
 		(uuid "3f206e62-f768-45bb-9e79-8660cfe4306a")
 	)
@@ -2198,6 +2190,16 @@
 			(type default)
 		)
 		(uuid "0933a257-43b9-40cc-aada-385b74126c47")
+	)
+	(wire
+		(pts
+			(xy 24.13 33.02) (xy 25.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dd90cf-27aa-4ebf-8db8-d04ca4c82d3b")
 	)
 	(wire
 		(pts
@@ -2911,6 +2913,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 60.96) (xy 25.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd57c0a-a5e1-44ae-a823-fd48539ff78a")
+	)
+	(wire
+		(pts
 			(xy 52.07 43.18) (xy 54.61 43.18)
 		)
 		(stroke
@@ -2991,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 67.31) (xy 132.08 67.31)
+			(xy 127 67.31) (xy 133.35 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3289,16 +3301,16 @@
 		)
 		(uuid "133717b6-d9b2-4fc0-b2f9-cd64ce6435b4")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "5V"
 		(shape input)
-		(at 132.08 67.31 0)
+		(at 133.35 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3bdae5b3-f9cb-4ce9-9ac6-cec938df9896")
+		(uuid "40ea4db9-abb5-4ff4-816b-0b3340f88b62")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -3510,6 +3522,71 @@
 			(project "detentOne"
 				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/2ffef3f0-c596-4316-9d55-314e15f9f8d2"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2007d44f-e1e5-469a-b3f3-d84d133f5439")
+		(property "Reference" "#PWR05"
+			(at 24.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 23.876 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "901ee307-ddd8-4c5b-99c8-0d62afac094e")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/2ffef3f0-c596-4316-9d55-314e15f9f8d2"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5010,6 +5087,71 @@
 			(project "detentOne"
 				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/2ffef3f0-c596-4316-9d55-314e15f9f8d2"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a7507eb-cd88-4c93-bdf2-2e1422a263a9")
+		(property "Reference" "#PWR06"
+			(at 24.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 23.876 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "febf577d-2cea-4086-9c7a-44ecdac3102f")
+		)
+		(instances
+			(project "detentOne"
+				(path "/64c66767-4367-4391-b4db-5d3ae338f23b/2ffef3f0-c596-4316-9d55-314e15f9f8d2"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
